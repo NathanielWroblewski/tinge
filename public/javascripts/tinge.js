@@ -136,6 +136,7 @@ $(document).ready(function() {
     {count: 121, size: 52},
     {count: 144, size: 47},
     {count: 144, size: 47},
+    {count: 144, size: 47},
     {count: 144, size: 47}
   ]
 
@@ -161,8 +162,9 @@ $(document).ready(function() {
     5,
     5,
     5,
-    1,
-    1,
+    4,
+    3,
+    2,
     1
   ]
 
