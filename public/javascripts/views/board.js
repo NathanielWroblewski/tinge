@@ -41,20 +41,16 @@ Tinge.Views.Board = function() {
 
   this.setColor = function() {
     this.collection().css('background-color',
-      'rgb(' +
-        this.color.r + ',' +
-        this.color.g + ',' +
-        this.color.b +
-      ')'
+      'rgb(' + this.color.r + ',' + this.color.g + ',' + this.color.b + ')'
     )
   },
 
   this.setTinge = function() {
     $(this.collection()[this.tingeIndex]).css('background-color',
       'rgb(' +
-        (this.color.r + this.tingeDelta) + ',' +
-        (this.color.g + this.tingeDelta) + ',' +
-        (this.color.b + this.tingeDelta) +
+        this.incrementColor(this.color.r) + ',' +
+        this.incrementColor(this.color.g) + ',' +
+        this.incrementColor(this.color.b) +
       ')'
     )
   },
