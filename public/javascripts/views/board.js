@@ -9,7 +9,6 @@ Tinge.Views.Board = function() {
     this.color = options.color
     this.tingeIndex = _.random(this.tileCount - 1)
     this.tingeDelta = options.tingeDelta
-    // this.setListeners()
   },
 
   this.collection = function() {
