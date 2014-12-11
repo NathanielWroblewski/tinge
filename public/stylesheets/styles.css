@@ -15,6 +15,7 @@ html, body {
 #tinge div {
   float: left;
   border: 1px solid #444;
+  cursor: pointer;
 }
 
 .gameover {
