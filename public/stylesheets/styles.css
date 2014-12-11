@@ -26,10 +26,35 @@ html, body {
   margin: 0;
 }
 
+.youwin {
+  display: none;
+  color: white;
+  position: absolute;
+  width: 600px;
+  padding: 280px 0 0 0;
+  margin: 0;
+}
+
+h1 {
+  font-size: 62px;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 36px;
+}
+
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Amatic SC', cursive;
 }
 
 .score {
   clear: both;
+}
+
+a {
+  color: #444;
+  font-family: 'Amatic SC', cursive;
+  text-decoration: none;
+  font-size: 24px;
 }

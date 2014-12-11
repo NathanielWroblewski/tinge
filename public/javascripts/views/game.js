@@ -30,7 +30,8 @@ Tinge.Views.Game = function() {
   },
 
   this.verify = function(e) {
-    if (this.gameOver) return
+    if (this.gameOver) return false
+    if (this.level === 24) return this.winGame()
     var clickedIndex = _.indexOf(this.board.collection(), e.target)
     if (clickedIndex === this.board.tingeIndex) {
       this.incrementScore()
@@ -55,5 +56,11 @@ Tinge.Views.Game = function() {
     this.gameOver = true
     this.board.gameOver()
     $('.gameover').show()
+  },
+
+  this.winGame = function() {
+    this.gameOver = true
+    this.board.gameOver()
+    $('.youwin').show()
   }
 }
