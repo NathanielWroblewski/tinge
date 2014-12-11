@@ -18,16 +18,7 @@ html, body {
   cursor: pointer;
 }
 
-.gameover {
-  display: none;
-  color: white;
-  position: absolute;
-  width: 610px;
-  padding: 280px 0 0 0;
-  margin: 0;
-}
-
-.youwin {
+.overlay {
   display: none;
   color: white;
   position: absolute;
