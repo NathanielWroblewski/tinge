@@ -31,7 +31,7 @@ Tinge.Views.Game = function() {
 
   this.verify = function(e) {
     if (this.gameOver) return false
-    if (this.level === 24) return this.winGame()
+    if (this.level === 25) return this.winGame()
     var clickedIndex = _.indexOf(this.board.collection(), e.target)
     if (clickedIndex === this.board.tingeIndex) {
       this.incrementScore()
