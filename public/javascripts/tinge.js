@@ -172,4 +172,16 @@ $(document).ready(function() {
     levelSizes: LEVEL_SIZES,
     tingeDeltas: TINGE_DELTAS
   })
+
+  $('a').on('mouseenter', function() {
+    $(this).animate({
+      fontSize: '+=10px'
+    })
+  })
+
+  $('a').on('mouseleave', function() {
+    $(this).animate({
+      fontSize: '-=10px'
+    })
+  })
 })
