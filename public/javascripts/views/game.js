@@ -45,7 +45,7 @@ Tinge.Views.Game = function() {
 
   this.incrementScore = function() {
     this.score += 100
-    $('.player-score').html(this.score)
+    $('.score').html(this.score)
   },
 
   this.incrementLevel = function() {
