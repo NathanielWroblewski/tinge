@@ -8,7 +8,7 @@ html, body {
 }
 
 .container {
-  width: 600px;
+  width: 610px;
   margin: 50px auto;
 }
 
@@ -21,7 +21,7 @@ html, body {
   display: none;
   color: white;
   position: absolute;
-  width: 600px;
+  width: 610px;
   padding: 280px 0 0 0;
   margin: 0;
 }
@@ -30,7 +30,7 @@ html, body {
   display: none;
   color: white;
   position: absolute;
-  width: 600px;
+  width: 610px;
   padding: 280px 0 0 0;
   margin: 0;
 }
